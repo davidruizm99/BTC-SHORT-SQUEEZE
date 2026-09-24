@@ -1,7 +1,7 @@
 """
 ATR BREAKOUT MNQ — ESTRATEGIA COMPLETA v2.2
 =============================================
-Versión intermedia entre v2.1 y v3.
+
 
 CAMBIO ÚNICO respecto a v2.1:
   · FILTRO RANGO DE BREAKOUT — rango de la barra ≤ 0.50 × ATR(14)
@@ -17,12 +17,6 @@ SIN CAMBIOS respecto a v2.1:
   · Swing stop: desactivado (igual que v2.1)
   · Todos los demás parámetros idénticos
 
-POR QUÉ v2.2 y NO v3.0 completa:
-  El swing stop de la v3 (el cambio principal) genera 86 stops
-  en el holdout 2026 vs 6 del baseline — el mercado de 2026
-  con reversiones intradiarias frecuentes activa el stop ajustado
-  repetidamente. La v2.2 mantiene el stop robusto del v2.1
-  e incorpora solo el filtro que no perjudica en ningún período.
 
 RESULTADOS VALIDADOS:
   IS  2019-2021:    Sharpe 2.099  (+0.065 vs v2.1)
